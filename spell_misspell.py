@@ -8,7 +8,7 @@ from operator import itemgetter
 from wordcloud import WordCloud
 
 
-file = open(r'D:\name-list.txt')
+file = open(r'name-list.txt')
 data = file.read()
 data = data.split("\n")
 
